@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movespeed : MonoBehaviour
 {
     public float runSpeed = 2;
-    public float jumpSpeed = 5;
+    public float jumpSpeed = 3;
     // Start is called before the first frame update
     Rigidbody2D rb2D;
 

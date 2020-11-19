@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Frutascoleccionadas : MonoBehaviour
+public class FrutColled : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -10,7 +10,7 @@ public class Frutascoleccionadas : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject, 0.5f);
         }
     }
 }
